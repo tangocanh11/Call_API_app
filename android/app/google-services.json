@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "328805583738",
+    "firebase_url": "https://callapiapp-ce817-default-rtdb.firebaseio.com",
     "project_id": "callapiapp-ce817",
     "storage_bucket": "callapiapp-ce817.firebasestorage.app"
   },

@@ -21,10 +21,7 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for ios - '
@@ -61,4 +58,14 @@ class DefaultFirebaseOptions {
     databaseURL: 'https://callapiapp-ce817-default-rtdb.firebaseio.com',
     storageBucket: 'callapiapp-ce817.firebasestorage.app',
   );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyDNrwysrFgKO7xznkwWuDdISDfZZdT2i6A',
+    appId: '1:328805583738:android:ecd8591a4eed34422624c3',
+    messagingSenderId: '328805583738',
+    projectId: 'callapiapp-ce817',
+    databaseURL: 'https://callapiapp-ce817-default-rtdb.firebaseio.com',
+    storageBucket: 'callapiapp-ce817.firebasestorage.app',
+  );
+
 }

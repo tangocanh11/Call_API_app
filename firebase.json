@@ -1,1 +1,1 @@
-{"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"callapiapp-ce817","configurations":{"web":"1:328805583738:web:b8d0a34b5c8276f72624c3"}}}}}}
+{"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"callapiapp-ce817","configurations":{"android":"1:328805583738:android:ecd8591a4eed34422624c3","web":"1:328805583738:web:b8d0a34b5c8276f72624c3"}}},"android":{"default":{"projectId":"callapiapp-ce817","appId":"1:328805583738:android:ecd8591a4eed34422624c3","fileOutput":"android/app/google-services.json"}}}}}
